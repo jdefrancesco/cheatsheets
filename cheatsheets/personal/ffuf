@@ -1,0 +1,2 @@
+# Find directories and files for a given domain name. Note FUZZ is what is substituted
+ffuf -ac -v -u https://domain.com/FUZZ -w wordlist.txt -o ffuf-output
