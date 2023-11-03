@@ -39,7 +39,7 @@ apt purge <package>...
 apt -o "Acquire::https::Verify-Peer=false" update
 
 # Get key for repo
-wget -O - https://repos.blah.com/some.key | sudo apt-ket add -
+wget -O - https://repos.blah.com/some.key | sudo apt-key add -
 
 # Another method
 sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
